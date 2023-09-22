@@ -4,7 +4,3 @@ const operationScreen = document.querySelector("input[type='text']");
 operationScreen.addEventListener("input", function() {
     operationScreen.value = operationScreen.value.replace(/[^0-9+\-×÷()%.,]/g, "");
 });
-
-operationScreen.addEventListener("click", function(event) {
-    event.preventDefault();
-});

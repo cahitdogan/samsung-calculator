@@ -7,5 +7,4 @@ operationScreen.addEventListener("input", function() {
 
 operationScreen.addEventListener("click", function(event) {
     event.preventDefault();
-    this.focus();
 });

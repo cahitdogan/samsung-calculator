@@ -112,15 +112,49 @@ main {
     height: 100%;
     background-color: var(--color-bg-primary);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 /**********************************/
 
-#operation-text-field {
-    width: 100%;
+#operation-screen {
     text-align: right;
     font-size: 5rem;
     height: 15rem;
     padding-bottom: 7rem;
     caret-color: rgb(110, 199, 226);
+}
+
+#buttons-container {
+    height: 50rem;
+}
+
+/**********************************/
+
+#top-buttons-container {
+    height: 13.14%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+#top-buttons-container > button {
+    height: 2.5rem;
+    aspect-ratio: 1;
+}
+
+#top-buttons-container > button:nth-child(1) {
+    background-image: url(../images/history.svg);
+}
+
+#top-buttons-container > button:nth-child(2) {
+    background-image: url(../images/delete.svg);
+}
+
+
+/**********************************/
+
+#keyboard-container {
+    height: 86.86%;
 }

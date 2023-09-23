@@ -140,19 +140,16 @@ main {
 }
 
 #top-buttons-container > button {
-
-}
-
-#top-buttons-container > button:nth-child(1) {
-    background-image: url(../images/history.svg);
     height: 2rem;
     aspect-ratio: 1;
 }
 
+#top-buttons-container > button:nth-child(1) {
+    background-image: url(../images/history.svg);
+}
+
 #top-buttons-container > button:nth-child(2) {
     background-image: url(../images/delete.svg);
-    height: 2rem;
-    width: 1.85rem;
 }
 
 

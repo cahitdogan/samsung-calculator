@@ -141,7 +141,7 @@ main {
 
 #top-buttons-container > button::before {
     content: "";
-    width: 10rem;
+    width: 12rem;
     aspect-ratio: 1;
     position: absolute;
     top: 50%;

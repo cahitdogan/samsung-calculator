@@ -131,7 +131,7 @@ main {
     height: 3.5rem;
     border-radius: 100%;
     background-size: 2rem;
-    transition: 0.25s;
+    transition: 0.3s;
     position: relative;
     -webkit-tap-highlight-color: transparent;
 }

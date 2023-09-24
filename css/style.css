@@ -152,9 +152,10 @@ main {
     aspect-ratio: 1;
     border-radius: 100%;
     background-size: 2rem;
+    transition: ;
 }
 
-#top-buttons-container > button:active, #top-buttons-container > button:hover {
+#top-buttons-container > button:active {
     -webkit-tap-highlight-color: transparent;
     background-color: var(--color-bg-secondary-hover);
 }

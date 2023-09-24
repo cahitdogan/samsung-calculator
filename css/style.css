@@ -147,17 +147,16 @@ main {
 }
 
 #top-buttons-container > button {
-    height: 2rem;
+    height: 4rem;
+    padding: 2rem;
     aspect-ratio: 1;
     border-radius: 100%;
+    background-size: 2rem;
 }
 
-#top-buttons-container > button:active {
+#top-buttons-container > button:active, #top-buttons-container > button:hover {
     -webkit-tap-highlight-color: transparent;
-}
-
-#top-buttons-container > button:hover {
-    
+    background-color: var(--color-bg-secondary-hover);
 }
 
 #top-buttons-container > button:nth-child(1) {

@@ -103,6 +103,7 @@ main {
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 
 /**********************************/
@@ -115,18 +116,14 @@ main {
     caret-color: rgb(110, 199, 226);
 }
 
-#buttons-container {
-    height: 50rem;
-}
-
 /**********************************/
 
 #top-buttons-container {
-    height: 13.14%;
+    height: 12rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2%;
+    padding: 0 5%;
 }
 
 #top-buttons-container > button {
@@ -134,7 +131,7 @@ main {
     height: 3.5rem;
     border-radius: 100%;
     background-size: 2rem;
-    transition: 0.2s;
+    transition: 0.25s;
     position: relative;
     -webkit-tap-highlight-color: transparent;
 }
@@ -166,5 +163,5 @@ main {
 /**********************************/
 
 #keyboard-container {
-    height: 86.86%;
+    height: 38rem;
 }

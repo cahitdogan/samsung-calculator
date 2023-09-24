@@ -42,7 +42,7 @@ html {
 
 body {
     background-color: var(--color-bg-secondary);
-    height: 100vh;
+    height: calc(var(--vh, 1vh) * 100);
     color: var(--color-text-primary);
     font-family: 'Roboto', sans-serif;
     display: flex;
@@ -113,7 +113,7 @@ a {
 main {
     width: 100%;
     max-width: 40rem;
-    height: 100vh;
+    height: 100%;
     max-height: 80rem;
     background-color: var(--color-bg-primary);
     padding: 1rem 2rem;

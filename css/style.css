@@ -112,14 +112,13 @@ a {
 
 main {
     width: 100%;
-    max-width: 40rem;
+    max-width: 50rem;
     height: 100%;
-    max-height: 80rem;
+    max-height: 85rem;
     background-color: var(--color-bg-primary);
     padding: 1rem 2rem;
     display: flex;
     flex-direction: column;
-    border-radius: 2rem;
 }
 
 /**********************************/
@@ -152,7 +151,7 @@ main {
     aspect-ratio: 1;
     border-radius: 100%;
     background-size: 2rem;
-    transition: 0.15s;
+    transition: all 0.175s;
 }
 
 #top-buttons-container > button:active {
@@ -166,6 +165,7 @@ main {
 
 #top-buttons-container > button:nth-child(2) {
     background-image: url(../images/delete.svg);
+    background-position: 45% 50%;
 }
 
 /**********************************/

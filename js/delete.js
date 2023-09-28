@@ -19,7 +19,7 @@ operationScreen.addEventListener("input", function() {
 
 /*behaviours of the delete button*/
 deleteButton.addEventListener("click", function() {
-        navigator.vibrate(100);
+        navigator.vibrate(50);
 
     let caretPosition = operationScreen.selectionStart; //returns position of the caret and positions of selections
 

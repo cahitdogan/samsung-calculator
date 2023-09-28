@@ -1,0 +1,10 @@
+@media screen and (width >= 500px) {
+    main {
+        border-radius: 2.3rem;
+        max-height: 81rem;
+    }
+
+    .active:hover {
+        background-color: var(--color-bg-secondary-hover);
+    }
+}

@@ -16,7 +16,8 @@
     --color-bg-quaternary: #4d4d4d;
     --color-bg-quaternary-hover: #717171;
     --color-text-primary: #fafafa;
-    --color-text-secondary: #f86f69;
+    --color-text-secondary: #76da3a;
+    --color-text-tertiary: #f86f69;
     --color-icon-hover: #393939;
 }
 
@@ -160,6 +161,8 @@ main {
 #top-buttons-container > #delete {
     background-image: url(../images/delete.svg);
     background-position: 44% 55%;
+    opacity: 0.4;
+    cursor: default;
 }
 
 /**********************************/
